@@ -47,7 +47,9 @@ concept_skyrim_human_race_imperec
 	(*
 		-> rrel_example: "file://images/imperec.png"
 		(*
-			=> nrel_format: format_jpg;;
+			=> nrel_format: format_png;;
 		*);;
+	=>nrel_main_idtf: 
+	 [Иллюстрация (Имперец)]   (*<-lang_ru;;*);;
 	*);;
 *);;

@@ -57,7 +57,9 @@ concept_skyrim_human_race_bretonec
 	(*
 		-> rrel_example: "file://images/bretonec.png"
 		(*
-			=> nrel_format: format_jpg;;
+			=> nrel_format: format_png;;
 		*);;
+	=>nrel_main_idtf: 
+	 [Иллюстрация (Бретон)]   (*<-lang_ru;;*);;
 	*);;
 *);;
