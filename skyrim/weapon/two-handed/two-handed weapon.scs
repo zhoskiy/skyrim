@@ -40,7 +40,7 @@ concept_skyrim_weapon_two_handed
 (*
 	-> concept_skyrim_weapon_two_handed_sword;;
 	-> concept_skyrim_weapon_two_handed_poleaxe;;
-	-> concept_skyrim_weapon_one_handed_hammer;;
+	-> concept_skyrim_weapon_two_handed_hammer;;
 	=> nrel_main_idtf:[Разбиение по виду двуручного оружия] (* <- lang_ru;; *);;
 *);
 
