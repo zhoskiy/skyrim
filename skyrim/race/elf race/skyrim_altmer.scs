@@ -29,7 +29,7 @@ concept_skyrim_elf_race_altmer
     <= nrel_sc_text_translation: ... (*
       -> rrel_example:
 [ Родиной альтмеров или, как их ещё называют, «высоких эльфов», являются далёкие
- от холодных просторов <b><sc_element sys_idtf="concept_provinces_skyrim">Скайрима</b></sc_element> острова Саммерсет, славящиеся тёплым климатом и удивительными пейзажами. ](*<-lang_ru;; => nrel_format: format_html;;*);;
+ от холодных просторов <b><sc_element sys_idtf="concept_skyrim_skyrim">Скайрима</b></sc_element> острова Саммерсет, славящиеся тёплым климатом и удивительными пейзажами. ](*<-lang_ru;; => nrel_format: format_html;;*);;
       *);;
   *);
 

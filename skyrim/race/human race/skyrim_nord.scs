@@ -26,7 +26,7 @@ concept_skyrim_human_race_nord
       [Утв.1 (О происхождении Нордов)] (* <- lang_ru;; *);;
     <= nrel_sc_text_translation: ... (*
       -> rrel_example:
-[ Норды составляют подавляющее большинство населения <b><sc_element sys_idtf="concept_provinces_skyrim">Скайрима</b></sc_element>, который считают своей родиной. 
+[ Норды составляют подавляющее большинство населения <b><sc_element sys_idtf="concept_skyrim_skyrim">Скайрима</b></sc_element>, который считают своей родиной. 
 Появление нордов в Тамриэле началось в Меретическую эру, но норды считают себя потомками прибывших вместе с Исграмором переселенцев.](*<-lang_ru;; => nrel_format: format_html;;*);;
       *);;
   *);

@@ -38,7 +38,7 @@ concept_skyrim_elf_race_woodelf
       [Утв.2 (О способностях альтмеров)] (* <- lang_ru;; *);;
     <= nrel_sc_text_translation: ... (*
       -> rrel_example:
-[Лесные эльфы — отличные воры и разведчики, и никто во всём Тамриэле не сравнится с ними во владении <b><sc_element sys_idtf="concept_skyrim_weapon_bow"> луком </b></sc_element>. 
+[Лесные эльфы — отличные воры и разведчики, и никто во всём Тамриэле не сравнится с ними во владении <b><sc_element sys_idtf="concept_skyrim_weapon_rifle_arch"> луком </b></sc_element>. 
 Они обладают врождённой сопротивляемостью ядам и болезням. 
 Также они могут подчинять своей воле животных, заставляя их сражаться на своей стороне.  ](*<-lang_ru;; => nrel_format: format_html;;*);;
       *);;
