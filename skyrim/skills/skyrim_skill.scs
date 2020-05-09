@@ -1,6 +1,18 @@
 concept_skyrim_skill
-=> nrel_main_idtf: [Skill(Skyrim)] (* <- lang_en;; *);
-=> nrel_main_idtf: [Навыки (Скайрим)] (* <- lang_ru;; *);
+=> nrel_main_idtf: [skill (Skyrim)] (* <- lang_en;; *);
+=> nrel_main_idtf: [навык (Скайрим)] (* <- lang_ru;; *);
+
+<-computer_game_the_elder_scrolls_5_skyrim;
+
+<= nrel_subdividing: ...
+(*
+	-> concept_skyrim_skill_illusion;;
+	-> concept_skyrim_skill_restoration;;
+	-> concept_skyrim_skill_alteration;;
+	-> concept_skyrim_skill_witchcraft;;
+	-> concept_skyrim_skill_destruction;;
+	=> nrel_main_idtf:[навыки мага] (* <- lang_ru;; *);;
+*);
 
 
 <- rrel_key_sc_element: ...

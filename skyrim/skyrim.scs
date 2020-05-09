@@ -25,14 +25,13 @@ computer_game_the_elder_scrolls_5_skyrim
 =>nrel_publisher: company_softclub;
 =>nrel_developer: company_bethesda_game_studios;
 =>nrel_localizer: company_softclub;
-=>nrel_platform: {
-concept_windows;
-concept_xbox_360;
-concept_playstation_3;
-concept_playstation_4;
-concept_xbox_one;
-concept_nintendo_switch
-};
+
+=>nrel_platform: concept_microsoft_windows;
+=>nrel_platform: xbox_360;
+=>nrel_platform: playstation_3;
+=>nrel_platform: playstation_4;
+=>nrel_platform: xbox_one;
+=>nrel_platform: concept_nintendo_switch;
 
 
 <- rrel_key_sc_element: ... (*
