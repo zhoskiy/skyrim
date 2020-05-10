@@ -6,6 +6,10 @@ concept_skyrim_dragonplate_armor
 <- concept_skyrim_heavy_armor;
 <- concept_skyrim_armor_cuirass;
 
+=> nrel_baseline_protection: 49;
+=> nrel_weight: 40;
+=> nrel_default_cost: 2125;
+
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
@@ -32,9 +36,9 @@ concept_skyrim_dragonplate_armor
 	<- illustration;;
 	<= nrel_sc_text_translation: ...
 	(*
-		-> rrel_example: "file://images/cuirass.jpeg"
+		-> rrel_example: "file://images/armor.png"
 		(*
-			=> nrel_format: format_jpeg;;
+			=> nrel_format: format_png;;
 		*);;
 	=>nrel_main_idtf: 
 	 [Иллюстрация (Драконья панцирная броня)]   (*<-lang_ru;;*);;

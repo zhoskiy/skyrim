@@ -5,6 +5,9 @@ concept_skyrim_dragonplate_armor_shield
 
 <- concept_skyrim_heavy_armor;
 <- concept_skyrim_armor_shield;
+=> nrel_baseline_protection: 37;
+=> nrel_weight: 15;
+=> nrel_default_cost: 1050;
 
 <- rrel_key_sc_element: ...
 (*
@@ -32,9 +35,9 @@ concept_skyrim_dragonplate_armor_shield
 	<- illustration;;
 	<= nrel_sc_text_translation: ...
 	(*
-		-> rrel_example: "file://images/sit.jpeg"
+		-> rrel_example: "file://images/shield.png"
 		(*
-			=> nrel_format: format_jpeg;;
+			=> nrel_format: format_png;;
 		*);;
 	=>nrel_main_idtf: 
 	 [Иллюстрация (Драконий панцирный щит)]   (*<-lang_ru;;*);;

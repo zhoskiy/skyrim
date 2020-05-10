@@ -6,6 +6,10 @@ concept_skyrim_dragonplate_boots
 <- concept_skyrim_heavy_armor;
 <- concept_skyrim_armor_boots;
 
+=> nrel_baseline_protection: 19;
+=> nrel_weight: 8;
+=> nrel_default_cost: 425;
+
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
@@ -32,9 +36,9 @@ concept_skyrim_dragonplate_boots
 	<- illustration;;
 	<= nrel_sc_text_translation: ...
 	(*
-		-> rrel_example: "file://images/boots.jpeg"
+		-> rrel_example: "file://images/boots.png"
 		(*
-			=> nrel_format: format_jpeg;;
+			=> nrel_format: format_png;;
 		*);;
 	=>nrel_main_idtf: 
 	 [Иллюстрация (Драконьи панцирные сапоги)]   (*<-lang_ru;;*);;

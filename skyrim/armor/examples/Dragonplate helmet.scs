@@ -6,6 +6,10 @@ concept_skyrim_dragonplate_armor_helmet
 <- concept_skyrim_heavy_armor;
 <- concept_skyrim_armor_helmet;
 
+=> nrel_baseline_protection: 24;
+=> nrel_weight: 8;
+=> nrel_default_cost: 1050;
+
 <- rrel_key_sc_element: ...
 (*
 	<- definition;;
@@ -32,9 +36,9 @@ concept_skyrim_dragonplate_armor_helmet
 	<- illustration;;
 	<= nrel_sc_text_translation: ...
 	(*
-		-> rrel_example: "file://images/helmet.jpeg"
+		-> rrel_example: "file://images/helmet.png"
 		(*
-			=> nrel_format: format_jpeg;;
+			=> nrel_format: format_png;;
 		*);;
 	=>nrel_main_idtf: 
 	 [Иллюстрация (Драконий панцирный шлем)]   (*<-lang_ru;;*);;
