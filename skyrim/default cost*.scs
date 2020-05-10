@@ -41,10 +41,3 @@ nrel_default_cost => nrel_definitional_domain : ...
 	};;
 *);;
 
-
-sc_node_not_relation -> arity;;
-sc_node_not_relation -> arity_2;;
-arity -> arity_2;;
-arity_2 => nrel_measurement:2;;
-arity_2 -> nrel_default_cost;;
-number->2;;
