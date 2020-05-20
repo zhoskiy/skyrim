@@ -38,7 +38,7 @@ concept_skyrim_human_race_bretonec
     <= nrel_sc_text_translation: ... (*
       -> rrel_example:
 [Кроме природного магического таланта, даже самые скромные из бретонцев могут похвастаться высокой сопротивляемостью магии. Они обладают <b><sc_element sys_idtf="concept_skyrim_skill"> способностью </b></sc_element> «Драконья кожа», 
-позволяющей им поглощать <b><sc_element sys_idtf="concept_skyrim_spell"> заклинания </b></sc_element>. ](*<-lang_ru;; => nrel_format: format_html;;*);;
+позволяющей им поглощать заклинания. ](*<-lang_ru;; => nrel_format: format_html;;*);;
       *);;
   *);
 
@@ -57,7 +57,9 @@ concept_skyrim_human_race_bretonec
 	(*
 		-> rrel_example: "file://images/bretonec.png"
 		(*
-			=> nrel_format: format_jpg;;
+			=> nrel_format: format_png;;
 		*);;
+	=>nrel_main_idtf: 
+	 [Иллюстрация (Бретон)]   (*<-lang_ru;;*);;
 	*);;
 *);;

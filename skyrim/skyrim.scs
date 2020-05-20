@@ -13,6 +13,7 @@ computer_game_the_elder_scrolls_5_skyrim
 <-concept_open_RPG;
 <-concept_setting_fantasy;
 <-concept_multiplatform_game;
+->concept_skyrim_race;
 
 =>nrel_game_mode: concept_singleplayer_game;
 =>nrel_announcement_date: date_11.11.2010;
@@ -24,14 +25,13 @@ computer_game_the_elder_scrolls_5_skyrim
 =>nrel_publisher: company_softclub;
 =>nrel_developer: company_bethesda_game_studios;
 =>nrel_localizer: company_softclub;
-=>nrel_platform: {
-concept_windows;
-concept_xbox_360;
-concept_playstation_3;
-concept_playstation_4;
-concept_xbox_one;
-concept_nintendo_switch
-};
+
+=>nrel_platform: concept_microsoft_windows;
+=>nrel_platform: xbox_360;
+=>nrel_platform: playstation_3;
+=>nrel_platform: playstation_4;
+=>nrel_platform: xbox_one;
+=>nrel_platform: concept_nintendo_switch;
 
 
 <- rrel_key_sc_element: ... (*
@@ -68,6 +68,6 @@ concept_nintendo_switch
       [Утв. (Скайрим)] (* <- lang_ru;; *);;
     <= nrel_sc_text_translation: ... (*
       -> rrel_example:
-[ Подобно предыдущим играм <b><sc_element sys_idtf="concept_game_series_the_elder_scrolls">серии</b></sc_element>серии, Skyrim предоставляет игроку возможность свободно путешествовать по обширному игровому миру, исследуя его и самостоятельно находя новые места и задания. ](*<-lang_ru;; => nrel_format: format_html;;*);;
+[ Подобно предыдущим играм <b><sc_element sys_idtf="concept_game_series_the_elder_scrolls">серии</b></sc_element>, Skyrim предоставляет игроку возможность свободно путешествовать по обширному игровому миру, исследуя его и самостоятельно находя новые места и задания. ](*<-lang_ru;; => nrel_format: format_html;;*);;
       *);;
   *);;
